@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+header {  width: 100%; display: flex; flex-direction: row;background-color:white; height: 70px; 
+     box-shadow:  4px -1px 6px 3px rgba(0,0,0,.15) ; z-index: 3; }
+nav { width: 100%;  display: flex; flex-direction: row;justify-content:flex-start; align-items: center;margin-top: 10px;}
+img:first-child {
+
+    width: 83px;
+    height: 61px;
+ 
+}
+nav span { width: 108px; padding-left: 25px; text-align: center;}
+nav> button {cursor: pointer; position: absolute; right: 150px; top: 30px;}
+button:last-child { position: absolute; right: 30px; top: 30px;}
+.dropdown {
+    position: relative;
+    display: inline-block; margin-left: 70px;
+}
+    .dropdown-content {
+
+        display: none;
+        z-index: 1;
+        position: absolute;
+        background-color: white;
+        /* padding: 30px 16px; */
+        width: 1420px;
+        /* padding-left: 3px; */
+        /* width: 100%; */
+        /* box-shadow: 0px 0px 0px 10px rgba(0,0,0,0.2); */
+        margin-left: -239px;
+        padding-bottom: 20px;
+        margin-top: 18px;
+    }
+    .dropdown:hover .dropdown-content {
+        display: block; }
+        .dropdown button {cursor: pointer; }
+
+  ul {list-style-type: none;}       
+ .ulposition {display: flex;flex-direction: row; position: relative;width: 100%; padding-left: 125px; justify-content: start;}
+ .ulposition button {position: absolute; top: 10px;right: -900px;}
+
+ .section1 { width: 100%; height: 400px; background-color: #c896a5; display: flex;flex-direction: row;
+    justify-content: space-around; position: relative; padding-top: 100px;} 
+.section1 button {position: absolute; top: 300px; left: 100px; }
+.section1 p {font-family: Walsheim ; ;
+    font-size: 41.6px;
+    font-weight: 400;
+    line-height: 49.92px;
+    color: rgb(255, 255, 255); }
+.section1 span {color:#474450; font-family: Walsheim; font-size: 41.6px; 
+    font-weight: 400;line-height: 49.92px; text-align: center; } 
+
+.section2 { width: 100% ;height: 400px;display: flex;flex-direction: row;}
+.section2 h1 {font-family: Walsheim ;  color: white;margin-top: 55px;}
+.section2 p { font-family: Walsheim;font-size: 16px; font-weight: 400; line-height: 19.2px; color: rgb(42, 45, 53);}
+.sec2div1 { background-color: #fed24a; padding: 50px 50px;  width: 33%;position: relative;}
+.sec2div1 button {position: absolute; top: 300px; left:50px; background-color: transparent; padding: 20px 20px;cursor: pointer;border: 2px solid white;}
+.sec2div2 {background-color: #51c29f; padding: 50px 50px;  width: 33%;position: relative;}
+.sec2div2 button {position: absolute; top: 300px; left: 50px; background-color: transparent; padding: 20px 20px;cursor: pointer;border: 2px solid white;}
+.sec2div3 { background-color: #3ea9f5; padding: 50px 50px; position: relative;  width: 33%}
+.sec2div3 button {position: absolute; top: 300px; left: 50px; background-color: transparent;padding: 20px 20px;cursor: pointer; border: 2px solid white;}
+
+.section3 {width: 100%;height: 250px;display: flex; flex-direction: row; justify-content: space-around; padding-top: 80px;} 
+.section3 p { font-family: Walsheim; width: 140px;
+ font-size: 17px; font-weight: 500; line-height: 20.4px; color: rgb(156, 168, 183);}
+
+.section4 { width: 100%; height: 350px; display: flex; flex-direction: row; justify-content: space-around;margin-bottom: 100px;}
+.section4 img { width: 300px;height: 200px; }
+.section4 h2 {
+  
+    font-family: 'Open Sans', sans-serif; font-size: 16px;  font-weight: 700;line-height: 21.6px; color: rgb(42, 45, 53);}
+.section4 p {
+    font-family: 'Open Sans', sans-serif;
+     font-size: 16px; font-weight: 400; line-height: 28px; color: rgb(42, 45, 53);width: 300px;
+
+
+}
+
+.sect4_h2{
+
+ margin-left: 55px;
+
+
+}
+
+
+
+
+
+.section4 div {  display: flex; flex-direction: column; width: 33%;}
+
+.sec4div1 {position: relative; display: flex;flex-direction: column;}
+.sec4div1 h2 {margin-top: 215px; }
+.hoverchange1 { width: 300px;height: 200px; position: absolute; top: 0px;right: 90px;} /* ceci  class pour l'image*/
+.hoverchange2 { width: 300px;height: 200px; position: absolute; display: none; top: 0px;right: 90px;} /*ceci class pour le div*/
+.hoverchange2:hover { width: 300px; display: block; background-color: #4092cc;opacity: 0.8;}
+
+.fa-chart-line {  font-size: 50px;
+    color:#3ea9f5; position: absolute; top: 30px; left: 50px; }
+.fa-laptop {     font-size: 50px;
+    color:#e7b8c7; position: absolute; top: 30px; left: 50px; 
+} 
+.fa-book { font-size: 50px;
+    color: yellow; position: absolute; top: 30px; left: 50px; }
+
+.btn-start:hover{background-color: white;}
+
+.btn-start:hover+i {color: white;}
+
+
+iframe{
+width: 500px;
+height: 300px;
+
+}
+
+
+
+
+footer {width: 100%; display: flex;flex-direction: column; align-items: center;}
+footer>p { width: 100%; height: 60px; background-color:#efefef; text-align: center;padding-top: 35px;
+    font-family: 'Open Sans', sans-serif ;font-size: 18px;font-weight: 400;line-height: 21.6px;color: rgb(54, 57, 69);margin-bottom: 0px;}
+.secfoot {width: 100%;height: 300px; display: flex; flex-direction: row;
+    justify-content: space-around; background-color: #2a2d35; padding-top: 50px;}
+.secfoot+p {background-color:#2a2d35 ; width: 100%; margin-top: 0px;
+    font-family: 'Open Sans', sans-serif;font-size: 16px;font-weight: 400;
+         line-height: 19.2px; color: rgb(178, 185, 193);} 
+
+.container {display: flex;flex-direction: row ; justify-content: space-around;
+     width: 750px; margin-top: 30px; border-left: 1px solid #797d89; height: 200px;}
+
+.divfoot1 p:first-child {font-family: 'Open Sans', sans-serif;  font-size: 30px;  font-weight: 
+    400; line-height: 39px;color: rgb(255, 255, 255); width: 260px;}
+.divfoot1>p {  font-family: Walsheim;font-size: 16px;font-weight: 400; 
+    line-height: 24px;color: rgb(255, 255, 255); width: 265px;}
+
+.container li:first-child {color: rgb(156, 168, 183) ;
+    font-family: 'Open Sans', sans-serif; font-size: 11px; font-weight: 800;line-height: 14.3px;}
+
+.container>div { display: flex;flex-direction: column;}
+
+.container img {height: 30px; padding-left: 20px; }
+.container li { font-family: 'Open Sans', sans-serif; font-size: 15px; padding-bottom: 10px;
+    font-weight: 400; line-height: 18px; color: rgb(249, 249, 249);}
+
+    .divfoot2 li:last-child{ color: #3da7f2;}
+    .divfoot3 li:last-child { color: #e0887b;}  
+
+    .divfoot1 span {color: #36935e;}
+    .divfoot1 a{text-decoration: none;}
+
+
+
